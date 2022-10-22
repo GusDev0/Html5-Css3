@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: 500;
+}
+p{
+    text-align: justify;
+    text-indent: 1em;
+}

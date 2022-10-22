@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightslategray;
+            margin: 0px;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+
+        }
+
+        nav{
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.082);
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            margin: 100PX;
+        
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            color: limegreen;
+        }
+
+        main{
+            background-color: beige;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+
+        article{
+            background-color: lightgray;
+        }
+
+        article > aside{
+            background-color:rgba(211, 211, 211, 0.459) ;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticis">
+            <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam veniam voluptatibus maiores explicabo nobis, tempore accusantium! Laudantium, unde harum voluptas rerum cupiditate similique quos? Fugit delectus tempore pariatur alias eaque?</p>
+                    <aside>Artigo por Gusta</aside>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvendo pelo Gusta</p>
+    </footer>
+</body>
+</html>
